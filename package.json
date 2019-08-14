@@ -1,0 +1,38 @@
+{
+    "name": "todo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "electron ./dist/main.js",
+        "build:react": "webpack --mode development --config webpack.react.config.js",
+        "build": "webpack --mode development"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/cli": "^7.5.5",
+        "@babel/core": "^7.5.5",
+        "@babel/plugin-proposal-class-properties": "^7.5.5",
+        "@babel/plugin-transform-arrow-functions": "^7.2.0",
+        "@babel/preset-env": "^7.5.5",
+        "@babel/preset-react": "^7.0.0",
+        "@babel/preset-typescript": "^7.3.3",
+        "@types/react": "^16.9.1",
+        "@types/react-dom": "^16.8.5",
+        "babel-loader": "^8.0.6",
+        "electron": "^6.0.2",
+        "html-webpack-plugin": "^3.2.0",
+        "prettier": "^1.18.2",
+        "tslint": "^5.18.0",
+        "typescript": "^3.5.3",
+        "webpack": "^4.39.2",
+        "webpack-cli": "^3.3.6"
+    },
+    "dependencies": {
+        "react": "^16.9.0",
+        "react-dom": "^16.9.0"
+    }
+}
