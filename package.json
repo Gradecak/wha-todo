@@ -32,6 +32,8 @@
         "webpack-cli": "^3.3.6"
     },
     "dependencies": {
+        "fs": "0.0.1-security",
+        "moment": "^2.24.0",
         "react": "^16.9.0",
         "react-dom": "^16.9.0"
     }

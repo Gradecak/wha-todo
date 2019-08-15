@@ -1,8 +1,4 @@
-/*
- * "Borrowed" from: https://github.com/roufamatic/todo-txt-js :)
- */
-
-var TodoTxt = (function () {
+var TodTxt = (function () {
     var SORT_ASC = 'asc';
     var SORT_DESC = 'desc';
     var reTrim = /^\s+|\s+$/g;
