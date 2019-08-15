@@ -1,5 +1,5 @@
 import * as ReactDOM from 'react-dom';
 import * as React from 'react';
-import {Dashboard} from "./components/Dashboard";
+import {App} from "./components/App";
 
-ReactDOM.render(<Dashboard />, document.getElementById('renderer'));
+ReactDOM.render(<App />, document.getElementById('renderer'));
